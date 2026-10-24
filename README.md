@@ -43,3 +43,17 @@ PostFeed/
 │ └── PostView.swift
 │
 └── PostFeedApp.swift
+
+## Getting started
+
+```bash
+git clone https://github.com/sachinarkasali944/PostFeed.git
+cd PostFeed
+open "PostFeed/PostFeed.xcodeproj"
+```
+
+Select the app scheme and a simulator matching the deployment target in Xcode, then press **⌘R**. For device deployment, select your development team. Use an Xcode version with SDK support for the committed project.
+
+### API configuration
+
+This app reads demonstration posts from JSONPlaceholder. It requires internet access; no API key is needed for that endpoint.
